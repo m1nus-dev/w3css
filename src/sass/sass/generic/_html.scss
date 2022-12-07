@@ -1,0 +1,22 @@
+/*
+** html
+*/
+
+html, body {
+    font-family: $font-family__primary;
+    font-size: $font-size__primary;
+    line-height: $line-height__primary;
+}
+
+body {
+    margin: 0; // Extract 1: Remove the margin in all browsers.
+}
+
+html {
+    -webkit-text-size-adjust: 100%; // Extract 1: Prevent adjustments of font size after orientation changes in iOS.
+    -ms-text-size-adjust: 100%;
+
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+

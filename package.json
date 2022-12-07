@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "css-minify": "^2.0.0",
+    "node-sass": "^8.0.0"
+  }
+}
